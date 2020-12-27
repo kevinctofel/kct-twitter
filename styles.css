@@ -1,4 +1,8 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .mentions {
-    flex: content;
     width: 400px;
 }
+
