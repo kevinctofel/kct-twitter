@@ -55,7 +55,7 @@ function showMentions () {
 
     mentions.data.forEach(element => {
         console.log(element.text);
-        mentionList.push(`${element.text}</br></br>`)
+        mentionList.push(`${element.text}</br><hr></br>`)
     });
    
     return $('.mentions').html(`${mentionList}`);
