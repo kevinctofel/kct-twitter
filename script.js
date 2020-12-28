@@ -57,10 +57,12 @@ function showMentions () {
         console.log(element.text);
         mentionList.push(`${element.text}</br><hr></br>`)
     });
+
+    console.log(mentionList);
    
     return $('.mentions').html(`${mentionList}`);
 }
 
-// showMentions();
+showMentions();
 
 
