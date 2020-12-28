@@ -63,18 +63,4 @@ function showMentions () {
 
 // showMentions();
 
-var myHeaders = new Headers();
-myHeaders.append("Authorization", "Bearer AAAAAAAAAAAAAAAAAAAAABb9KwEAAAAAdAQk0wYeHtKNT1j5rH6HTBX0uDw%3DvKW3rElBgwra03Hg2JxYEWtlbekJKOnyJdj2wDjOpjRgzBFSsn");
-myHeaders.append("Cookie", "personalization_id=\"v1_bKEizU26Vm38/yFg2Dwd/w==\"; guest_id=v1%3A160919363736997219");
 
-var requestOptions = {
-  method: 'GET',
-  headers: myHeaders,
-  redirect: 'follow',
-  mode: 'no-cors'
-};
-
-fetch("https://api.twitter.com/2/users/43553/mentions", requestOptions)
-  .then(response => response.text())
-  .then(result => console.log(result))
-  .catch(error => console.log('error', error));
