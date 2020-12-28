@@ -5,51 +5,51 @@ function showMentions () {
     let mentions = {
         "data": [
             {
-                "id": "1342937789575225344",
-                "text": "@KevinCTofel Probably, but Apple's spent a decade developing chip design expertise. If Google wants this, they're likely not just going to do it in a year or two. Which means, of course, that they should start now."
+                "id": "1343649666995527681",
+                "text": "@KevinCTofel Have you tried out @Remembear (a password manager created from TunnelBear LLC)?"
             },
             {
-                "id": "1342791769637863424",
-                "text": "@KevinCTofel @MikyDe @lasersailor https://t.co/ZHbC5uG6Iq"
+                "id": "1343640454160646145",
+                "text": "@KevinCTofel #5Gsfor5G contest is happening NOW 🤑 Tap the button below to enter and you could win $5,000!"
             },
             {
-                "id": "1342510755833405445",
-                "text": "Merry Xmas @KevinCTofel \n\nGot this from Santa can't wait to listen to it. https://t.co/sHe3opsj9b"
+                "id": "1343594618802339847",
+                "text": "@KevinCTofel @EvanKirstel @JimHarris @DailyDOOH @DougonIPComm @IrmaRaste @rwang0 @DaveMichels @CTATech @cta it would drive a ultra-wide computer monitor (Gaming/non Gaming) very nicely at high resolution. https://t.co/Iwv5uxhpj5"
             },
             {
-                "id": "1342258605718818816",
-                "text": "@ringostarrmusic @KevinCTofel I spread a peace ✌️ of 💕 your way, with thanks for all the groovy music 🎵🎶"
+                "id": "1343566391174172672",
+                "text": "@DougonIPComm @JimHarris @DailyDOOH @IrmaRaste @rwang0 @DaveMichels @CTATech @cta @KevinCTofel Cool"
             },
             {
-                "id": "1342250317602119683",
-                "text": "@Chris_Yeung98 @KevinCTofel Christopher, hope you get a chance to give Bitwarden a spin! You can read more on our security here https://t.co/h8wVDqRf01 Unique attributes among others are an open-source approach and ability to self-host. There is a free forever option for individuals and a free 2 person org."
+                "id": "1343566114794713089",
+                "text": "@EvanKirstel @JimHarris @DailyDOOH @IrmaRaste @rwang0 @DaveMichels @CTATech @cta @KevinCTofel The Blink Outdoor camera is looking pretty good once i get it setup :)  Up to 2 years battery life on a pair of AA batteries, color/IR night camera."
             },
             {
-                "id": "1342249909806899201",
-                "text": "@KevinCTofel @Bitwarden Have you tried out @EnpassApp?"
+                "id": "1343566083157012488",
+                "text": "@BBTNB @JimHarris @DailyDOOH @DougonIPComm @IrmaRaste @rwang0 @DaveMichels @CTATech @cta @KevinCTofel Yeah pretty great."
             },
             {
-                "id": "1342247370080342017",
-                "text": "@KevinCTofel @Bitwarden @LastPass @1Password Just by looking at 1P's security, it's a bit more advanced than other password managers: 1P also has a secret key that it's used along with the MP to encrypt/decrypt 1P data. A con to that is that the person would have to either print out the Emergency Kit or something else..."
+                "id": "1343565810451812352",
+                "text": "@EvanKirstel @JimHarris @DailyDOOH @DougonIPComm @IrmaRaste @rwang0 @DaveMichels @CTATech @cta @KevinCTofel AirPods Pro by Apple. Magical."
             },
             {
-                "id": "1342246156064206848",
-                "text": "@KevinCTofel @Bitwarden How was your experience with @LastPass and @1Password, respectively?"
+                "id": "1343565645594710018",
+                "text": "What’s your favorite gadget of 2020? #gadgets #CES2021 #ces @JimHarris @DailyDOOH @DougonIPComm @IrmaRaste @rwang0 @DaveMichels @CTATech @cta @KevinCTofel https://t.co/V6d810IhGP"
             },
             {
-                "id": "1342245177428221957",
-                "text": "@KevinCTofel Besides using @Bitwarden, what other password managers have you tried?"
+                "id": "1343287971907252225",
+                "text": "Hot off the press! The Customer Behavior Daily is out! https://t.co/gbHkwYIYK8 Stories by @EatsBeat @KevinCTofel @DaveKillebrew #programming #javascript"
             },
             {
-                "id": "1342218456507310086",
-                "text": "@KevinCTofel On a Mac? Should he using Tweetbot! No ads in it."
+                "id": "1343269241517203456",
+                "text": "@KevinCTofel Distraction-free twitter client 💯"
             }
         ],
         "meta": {
-            "oldest_id": "1342218456507310086",
-            "newest_id": "1342937789575225344",
+            "oldest_id": "1343269241517203456",
+            "newest_id": "1343649666995527681",
             "result_count": 10,
-            "next_token": "7140dibdnow9c7btw3w2oi3gyz1ft2i1ksrx9b9sdxf7a"
+            "next_token": "7140dibdnow9c7btw3w2ok87bwbpptb0ndg4pv4u08euu"
         }
     }
 
