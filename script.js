@@ -1,7 +1,7 @@
 
-
-function showMentions () {
-    let mentionList = [];
+function showMentions() {
+    // let mentionList = [];
+    let mentionList = "";
     let mentions = {
         "data": [
             {
@@ -63,16 +63,15 @@ function showMentions () {
         }
     }
 
-    mentions.data.forEach(element => {
-        console.log(element.text);
-        mentionList.push(`${element.text}</br></br>${element.created_at}</br><hr></br>`)
-    });
 
-    console.log(mentionList);
-   
-    return $('.mentions').html(`${mentionList}`);
+mentions.data.forEach(element => {
+    console.log(element.text);
+    mentionList = mentionList + (`${element.text}</br></br>${element.created_at}</br><hr></br>`);
+
+console.log(mentionList);
+
+return $('.mentions').html(`${mentionList}`);
+});
 }
 
 showMentions();
-
-
