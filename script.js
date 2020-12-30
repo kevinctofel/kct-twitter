@@ -87,6 +87,7 @@ function getMentions() {
         method: 'GET',
         headers: myHeaders,
         redirect: 'follow',
+        mode: 'no-cors'
         
     };
 
