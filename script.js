@@ -80,7 +80,7 @@ function getMentions() {
     const proxyurl = "https://cors-anywhere.herokuapp.com/";
 
     let myHeaders = new Headers();
-    myHeaders.append("Authorization", "Bearer BEARER_TOKEN");
+    myHeaders.append("Authorization", "Bearer $BEARER_TOKEN");
     myHeaders.append("Cookie", "personalization_id=\"v1_bKEizU26Vm38/yFg2Dwd/w==\"; guest_id=v1%3A160919363736997219");
 
     let requestOptions = {
