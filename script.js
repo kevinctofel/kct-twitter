@@ -1,3 +1,4 @@
+const { bearer } = process.env;
 
 function showMentions() {
     // let mentionList = [];
