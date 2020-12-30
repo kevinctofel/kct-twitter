@@ -87,7 +87,7 @@ function getMentions() {
         method: 'GET',
         headers: myHeaders,
         redirect: 'follow',
-        // credentials: 'include'
+        credentials: 'include'
     };
 
     fetch(proxyurl + "https://api.twitter.com/2/users/43553/mentions?tweet.fields=created_at", requestOptions)
