@@ -64,14 +64,36 @@ function showMentions() {
     }
 
 
-mentions.data.forEach(element => {
-    console.log(element.text);
-    mentionList = mentionList + (`${element.text}</br></br>${element.created_at}</br><hr></br>`);
+    mentions.data.forEach(element => {
+        console.log(element.text);
+        mentionList = mentionList + (`${element.text}</br></br>${element.created_at}</br><hr></br>`);
 
-console.log(mentionList);
+        console.log(mentionList);
 
-return $('.mentions').html(`${mentionList}`);
-});
+        return $('.mentions').html(`${mentionList}`);
+    });
 }
 
-showMentions();
+// showMentions();
+
+function getMentions() {
+    const proxyurl = "https://cors-anywhere.herokuapp.com/";
+
+    let myHeaders = new Headers();
+    myHeaders.append("Authorization", "Bearer BEARER_TOKEN");
+    myHeaders.append("Cookie", "personalization_id=\"v1_bKEizU26Vm38/yFg2Dwd/w==\"; guest_id=v1%3A160919363736997219");
+
+    let requestOptions = {
+        method: 'GET',
+        headers: myHeaders,
+        redirect: 'follow',
+        
+    };
+
+    fetch(proxyurl + "https://api.twitter.com/2/users/43553/mentions?tweet.fields=created_at", requestOptions)
+        .then(response => response.text())
+        .then(result => console.log(result))
+        .catch(error => console.log('error', error));
+}
+
+getMentions();
